@@ -28,7 +28,7 @@ export function HeroSection() {
       <div className="absolute right-0 lg:right-12 top-1/2 -translate-y-1/2 w-[340px] h-[440px] lg:w-[460px] lg:h-[580px] opacity-90 pointer-events-none">
         <div className="absolute inset-0 bg-foreground/[0.03] border border-foreground/10" />
         <img
-          src="/altynbek-sigma.png"
+          src="https://github.com/vantazer561-a11y/Altynbek-Sigma/blob/main/altynbek-sigma.png?raw=true"
           alt="Altynbek Sigma — легенда Шымкента, бог в IT с квадратным лицом"
           className="w-full h-full object-cover grayscale contrast-110 mix-blend-multiply"
         />
