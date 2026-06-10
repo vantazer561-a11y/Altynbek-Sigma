@@ -24,8 +24,8 @@ export function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden">
-      {/* Legendary portrait */}
-      <div className="absolute right-0 lg:right-12 top-1/2 -translate-y-1/2 w-[340px] h-[440px] lg:w-[460px] lg:h-[580px] opacity-90 pointer-events-none">
+      {/* Legendary portrait - hidden on mobile, visible on large screens */}
+      <div className="hidden lg:block absolute right-0 lg:right-12 top-1/2 -translate-y-1/2 w-[460px] h-[580px] opacity-90 pointer-events-none">
         <div className="absolute inset-0 bg-foreground/[0.03] border border-foreground/10" />
         <img
           src="https://github.com/vantazer561-a11y/Altynbek-Sigma/blob/main/altynbek-sigma.png?raw=true"
